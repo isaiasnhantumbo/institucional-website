@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buscom</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Open+Sans:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles/main.css" />
+  </head>
+  <body class="landing">
+    <header>
+      <!-- <img src="/assets/logo.png" alt="Logo" /> -->
+      <div class="links">
+        <a href="/">Home</a>
+        <a href="/service">Services</a>
+        <a href="/blog">Blog</a>
+        <a href="/Page">Page</a>
+        <a href="./about.html">About</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="input">
+        <span class="material-icons"> search </span>
+        <input type="search" name="search" placeholder="Search" />
+      </div>
+    </header>
+    <main class="landing-hero">
+      <div class="hero">
+        <h1>Our Goal</h1>
+        <h2>Your Success</h2>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.
+        </p>
+        <button>Learn More</button>
+      </div>
+      <div class="footer">
+        <div class="card">
+          <div class="plus"></div>
+          <p>Global Trend</p>
+        </div>
+        <div class="card">
+          <div class="plus2"></div>
+          <p>Search Optimization</p>
+        </div>
+        <div class="card">
+          <div class="plus3"></div>
+          <p>Developer Skills</p>
+        </div>
+    
+      </div>
+    </main>
+
+    
+    <script src="/scripts/lottie.min.js"></script>
+
+    <script>
+      const element = document.querySelector('.plus');
+      lottie.loadAnimation({
+        container: element,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/scripts/44927-global-safe.json',
+      });
+    </script>
+    <script>
+      const element2 = document.querySelector('.plus2');
+      lottie.loadAnimation({
+        container: element2,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/scripts/6972-seo.json',
+      });
+    </script>
+    <script>
+      const element3 = document.querySelector('.plus3');
+      lottie.loadAnimation({
+        container: element3,
+        renderer: 'svg',
+        loop: true,
+        autoplay: true,
+        path: '/scripts/26417-plus-animation.json',
+      });
+    </script>
+  </body>
+</html>

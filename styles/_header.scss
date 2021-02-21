@@ -1,0 +1,60 @@
+header {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 32px;
+    margin-bottom: 132px;
+    
+    img {
+        height: 80px;
+    }
+    .links {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+            font-size: 16px ;
+            text-decoration: none;
+            color: #fff;
+            font-family: "amiko";
+            margin-left: 16px;
+            transition: all 100ms ease-out;
+            &:hover{
+                font-weight: bold;
+            }
+            &:first-child {
+                margin: 0;
+            }
+            &:last-child {
+                margin-right: 168px;
+            }
+        }
+    }
+    .input {
+        display: flex;
+        align-items: center;
+        position: relative;
+        span {
+            margin-right: 8px;
+            position: absolute;
+            color: #fff;
+            right: 0;
+        }
+    }
+
+    input {
+        border: 2px solid white;
+        border-radius: 22px;
+        background: transparent;
+        padding: 16px 8px;
+        height: 24px;
+        color: white;
+        &::placeholder {
+            color: #fff;
+            font-size: 16px;
+        }
+    }
+}

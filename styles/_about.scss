@@ -1,0 +1,21 @@
+main.about {
+    // height: 100vh;
+    background-color: white;
+    .about-hero {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+
+        img{
+            height: 600px;
+        }
+
+        h1 {
+            font-size: 48px;
+        }
+        p {
+            // height: 250px;
+            font-size: 22px;
+        }
+    }
+}

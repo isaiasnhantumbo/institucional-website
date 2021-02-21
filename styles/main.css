@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: "Amiko", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 132px;
+}
+header img {
+  height: 80px;
+}
+header .links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .links a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "amiko";
+  margin-left: 16px;
+  transition: all 100ms ease-out;
+}
+header .links a:hover {
+  font-weight: bold;
+}
+header .links a:first-child {
+  margin: 0;
+}
+header .links a:last-child {
+  margin-right: 168px;
+}
+header .input {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+header .input span {
+  margin-right: 8px;
+  position: absolute;
+  color: #fff;
+  right: 0;
+}
+header input {
+  border: 2px solid white;
+  border-radius: 22px;
+  background: transparent;
+  padding: 16px 8px;
+  height: 24px;
+  color: white;
+}
+header input::-moz-placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+header input:-ms-input-placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+header input::placeholder {
+  color: #fff;
+  font-size: 16px;
+}
+
+.landing {
+  background: url("../assets/cherrydeck-A44EW3n2PgM-unsplash.jpg") no-repeat center top;
+}
+
+.landing-hero {
+  color: white;
+}
+.landing-hero .hero h1 {
+  font-size: 64px;
+  font-weight: 300;
+  font-family: "Open Sans";
+}
+.landing-hero .hero h2 {
+  font-size: 56px;
+  font-family: "amiko";
+  font-weight: 700;
+}
+.landing-hero .hero p {
+  font-size: 24px;
+  width: 490px;
+  margin-top: 16px;
+  margin-bottom: 50px;
+}
+.landing-hero .hero button {
+  background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
+  border-radius: 24px;
+  padding: 15px 45px;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 20px #b6b6b6;
+  display: block;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+.landing-hero .hero button:hover {
+  background-position: right center;
+  color: #fff;
+  text-decoration: none;
+}
+.landing-hero .footer {
+  margin-top: 164px;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.landing-hero .footer .card {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  margin-left: 64px;
+}
+.landing-hero .footer .card p {
+  font-size: 24px;
+  font-weight: 600;
+}
+.landing-hero .footer .card:first-child {
+  margin: 0;
+}
+.landing-hero .footer .plus,
+.landing-hero .footer .plus2,
+.landing-hero .footer .plus3 {
+  padding: 0;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  margin: auto;
+}
+
+main.about {
+  background-color: white;
+}
+main.about .about-hero {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+main.about .about-hero img {
+  height: 600px;
+}
+main.about .about-hero h1 {
+  font-size: 48px;
+}
+main.about .about-hero p {
+  font-size: 22px;
+}/*# sourceMappingURL=main.css.map */
