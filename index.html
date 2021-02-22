@@ -13,33 +13,59 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles/main.css" />
   </head>
-  <body class="landing">
-    <header>
-      <!-- <img src="/assets/logo.png" alt="Logo" /> -->
-      <div class="links">
-        <a href="/">Home</a>
-        <a href="/service">Services</a>
-        <a href="/blog">Blog</a>
-        <a href="/Page">Page</a>
-        <a href="./about.html">About</a>
-        <a href="/contact">Contact</a>
+  <body class="w-full h-screen landing relative">
+    <img
+      src="/assets/cherrydeck-A44EW3n2PgM-unsplash.jpg"
+      alt=""
+      class="absolute"
+    />
+    <header class="w-full pt-8 flex justify-center items-center">
+
+      <div class="menu flex justify-center p-2">
+        <nav>
+          <ul class="flex">
+            <li>
+              <a href="#landing-hero">Home</a>
+            </li>
+            <li>
+              <a href="#service" class="px-4">Services</a>
+            </li>
+            <li>
+              <a href="#blog" class="pr-4">Blog</a>
+            </li>
+            <li>
+              <a href="#work" class="pr-4">Work</a>
+            </li>
+            <li>
+              <a href="#about" class="pr-4">About</a>
+            </li>
+            <li>
+              <a href="#contact" class="pr-4">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
       <div class="input">
-        <span class="material-icons"> search </span>
+        <span class="material-icons" class=""> search </span>
         <input type="search" name="search" placeholder="Search" />
       </div>
     </header>
-    <main class="landing-hero">
+
+    <main id="landing-hero" class="landing-hero container">
       <div class="hero">
-        <h1>Our Goal</h1>
-        <h2>Your Success</h2>
-        <p>
+        <h1 class="">Our Goal</h1>
+        <h2 class="">Your Success</h2>
+        <p class="">
           Lorem Ipsum is simply dummy text of the printing and typesetting
           industry.
         </p>
-        <button>Learn More</button>
+        <button class="button-green">Learn More</button>
       </div>
       <div class="footer">
         <div class="card">
@@ -54,11 +80,378 @@
           <div class="plus3"></div>
           <p>Developer Skills</p>
         </div>
-    
       </div>
     </main>
+    <section id="about" class="container about relative">
+      <div class="about-hero flex items-center justify-center">
+        <div class="hero-text">
+          <h1 class="mb-2 title">About Our Company</h1>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <button class="button-green text-white mt-10">Learn More</button>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1600880292089-90a7e086ee0c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+          alt=""
+        />
+      </div>
+    </section>
 
-    
+    <section id="service" class="container about relative">
+      <div class="service-hero flex items-center justify-center">
+        <div class="service-text">
+          <h1 class="mt-6 title text-center">Our Services</h1>
+          <p class="mt-2.5 sub-text-hero text-center w-96">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+      <div class="services">
+        <div class="card">
+          <img
+            src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1613984049~hmac=e4527682203949fa27dd4227edcb0a36"
+            alt=""
+            class="w-24 h-24"
+          />
+          <h3 class="font-bold my-2.5 service-text">Web designer</h3>
+          <p class="font-light service-text-info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1613984049~hmac=e4527682203949fa27dd4227edcb0a36"
+            alt=""
+            class="w-24 h-24"
+          />
+          <h3 class="font-bold my-2.5 service-text">Web designer</h3>
+          <p class="font-light service-text-info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1613984049~hmac=e4527682203949fa27dd4227edcb0a36"
+            alt=""
+            class="w-24 h-24"
+          />
+          <h3 class="font-bold my-2.5 service-text">Web designer</h3>
+          <p class="font-light service-text-info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1613984049~hmac=e4527682203949fa27dd4227edcb0a36"
+            alt=""
+            class="w-24 h-24"
+          />
+          <h3 class="font-bold my-2.5 service-text">Web designer</h3>
+          <p class="font-light service-text-info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1613984049~hmac=e4527682203949fa27dd4227edcb0a36"
+            alt=""
+            class="w-24 h-24"
+          />
+          <h3 class="font-bold my-2.5 service-text">Web designer</h3>
+          <p class="font-light service-text-info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+        <div class="card">
+          <img
+            src="https://www.flaticon.com/svg/vstatic/svg/1055/1055687.svg?token=exp=1613984049~hmac=e4527682203949fa27dd4227edcb0a36"
+            alt=""
+            class="w-24 h-24"
+          />
+          <h3 class="font-bold my-2.5 service-text">Web designer</h3>
+          <p class="font-light service-text-info">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="container about relative work">
+      <div class="work-hero flex">
+        <div class="hero-text">
+          <h1 class="mb-2 title">How We Work</h1>
+          <p class="mr-2.5">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+          <div class="work-stats">
+            <div class="card">
+              <img src="/assets/wall-clock.svg" alt="clock" />
+              <h3 class="font-bold my-2.5 service-text">2354</h3>
+              <p class="font-light service-text-info">Projects Complete</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://www.flaticon.com/svg/vstatic/svg/1063/1063196.svg?token=exp=1613988667~hmac=0493e544d266b57964603d8f48217393"
+                alt="clock"
+              />
+              <h3 class="font-bold my-2.5 service-text">754</h3>
+              <p class="font-light service-text-info">Happy Clint</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://www.flaticon.com/svg/vstatic/svg/3688/3688031.svg?token=exp=1613988774~hmac=cec3126da56751772275527fc9794e11"
+                alt="clock"
+              />
+              <h3 class="font-bold my-2.5 service-text">2354</h3>
+              <p class="font-light service-text-info">Award Earned</p>
+            </div>
+            <div class="card">
+              <img
+                src="https://www.flaticon.com/svg/vstatic/svg/2830/2830768.svg?token=exp=1613988864~hmac=cb72c6d19a5df922985798561e0ab5ad"
+                alt="clock"
+              />
+              <h3 class="font-bold my-2.5 service-text">2354</h3>
+              <p class="font-light service-text-info">Projects Complete</p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="https://images.unsplash.com/photo-1554200876-56c2f25224fa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+          alt=""
+          class="mt-2.5"
+        />
+      </div>
+    </section>
+
+    <section id="blog" class="container about relative">
+      <div class="blog-hero flex items-center justify-center">
+        <div class="service-text">
+          <h1 class="mt-6 title text-center">Our Project</h1>
+          <p class="mt-2.5 sub-text-hero text-center w-96">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+        </div>
+      </div>
+      <div class="blog-types container flex items-center mb-10">
+        <p
+          class="mx-8 bg-blue-400 rounded-3xl w-11 text-center text-white cursor-pointer"
+        >
+          All
+        </p>
+        <p class="mr-8 text-gray-700 cursor-pointer">Comercial</p>
+        <p class="text-gray-700 cursor-pointer">Print</p>
+      </div>
+      <div class="blog">
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+          <div class="card-info">
+            <h3 class="font-bold my-2.5 service-text blog-title">
+              Support Students
+            </h3>
+            <p class="font-light service-text-info blog-text-info">
+              Educational
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+          <div class="card-info">
+            <h3 class="font-bold my-2.5 service-text blog-title">
+              Support Students
+            </h3>
+            <p class="font-light service-text-info blog-text-info">
+              Educational
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+          <div class="card-info">
+            <h3 class="font-bold my-2.5 service-text blog-title">
+              Support Students
+            </h3>
+            <p class="font-light service-text-info blog-text-info">
+              Educational
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+          <div class="card-info">
+            <h3 class="font-bold my-2.5 service-text blog-title">
+              Support Students
+            </h3>
+            <p class="font-light service-text-info blog-text-info">
+              Educational
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+          <div class="card-info">
+            <h3 class="font-bold my-2.5 service-text blog-title">
+              Support Students
+            </h3>
+            <p class="font-light service-text-info blog-text-info">
+              Educational
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="https://images.unsplash.com/photo-1587613754760-cd9a285831b3?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=634&q=80"
+            alt=""
+          />
+          <div class="card-info">
+            <h3 class="font-bold my-2.5 service-text blog-title">
+              Support Students
+            </h3>
+            <p class="font-light service-text-info blog-text-info">
+              Educational
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form w-full">
+      <div class="form-content">
+        <div class="container form-header ">
+          <h2>Get in Touch With Us</h2>
+          <h1>Get a Quote</h1>
+          <div class="inputs ">
+            <div class="input-left ">
+              <input
+                class="p-2 mb-4 block w-96 bg-transparent"
+                type="number"
+                name="number"
+                placeholder="Phone Number"
+              />
+              <input
+                class="p-2 mb-4 block w-96 bg-transparent"
+                type="email"
+                name="number"
+                placeholder="Email"
+              />
+              <input
+                class="p-2 mb-4 block w-96 bg-transparent"
+                type="password"
+                name="number"
+                placeholder="Password"
+              />
+            </div>
+            <div class="input-right">
+              <textarea
+                class="p-2 mb-10 bg-transparent block"
+                placeholder="Message"
+              ></textarea>
+              <button>Send message</button>
+            </div>
+          </div>
+        </div>
+        <img src="/assets/businessman.png" alt="" class="image-man" />
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer-text container">
+        <div class="coopy">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+        </div>
+        <div class="links">
+          <div class="services-links">
+            <h1 class="footer-text">Services</h1>
+            <ul>
+              <li>Web Design</li>
+              <li>Social Media Manager</li>
+              <li>Copywriter</li>
+              <li>Motion Designer</li>
+              <li>Manager User</li>
+            </ul>
+          </div>
+          <div class="userfull-links">
+            <h1 class="footer-text">Useful Links</h1>
+            <ul>
+              <li>
+                <a href="#landing-hero">Home</a>
+              </li>
+              <li>
+                <a href="#service" class="">Services</a>
+              </li>
+              <li>
+                <a href="#blog" class="">Blog</a>
+              </li>
+              <li>
+                <a href="#work" class="">Work</a>
+              </li>
+              <li>
+                <a href="#about" class="">About</a>
+              </li>
+              <li>
+                <a href="#contact" class="">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="social-links">
+            <h1 class="footer-text" id="contact">Contact</h1>
+            <ul>
+              <li>Youtube</li>
+              <li>Instagram</li>
+              <li>Twitter</li>
+              <li>Whatsaap</li>
+              <li>Facebook</li>
+              <li>Github</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <span>Copyright ©️ 2021 Desenvolvido por Isaias Nhantumbo</span>
+    </footer>
+
     <script src="/scripts/lottie.min.js"></script>
 
     <script>
