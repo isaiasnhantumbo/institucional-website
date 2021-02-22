@@ -1,0 +1,44 @@
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 80px;
+    .card {
+        margin-top: 16px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        img {
+            border-radius: 30px;
+            width: 300px;
+            height: 500px;
+            object-fit: fill;
+            object-position: center;
+        }
+        .card-info {
+            // visibility: hidden;
+            // cursor: pointer;
+            width: 300px;
+            height: 80px;
+            border-radius:0 0 30px 30px ;
+
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+
+            position: absolute;
+            bottom: 0;
+
+            background-color: rgb(185, 185, 185);
+            // &:hover{
+            //     visibility: initial;
+            // }
+
+
+        }
+        // .blog-title{
+        //     position: absolute;
+        //     top: 0;
+        // }
+    }
+}

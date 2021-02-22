@@ -1,0 +1,23 @@
+.work {
+    .work-hero {
+        img {
+            width: 500px;
+            height: 600px;
+            object-fit: cover;
+            object-position: right top;
+        }
+    }
+    .work-stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        .card{
+            margin-top: 16px;
+            display: grid;
+            grid-template-rows: 1fr 50px 50px;
+        }
+        img {
+            height: 50px;
+            width: 50px;
+        }
+    }
+}

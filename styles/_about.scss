@@ -1,21 +1,11 @@
-main.about {
-    // height: 100vh;
-    background-color: white;
+.about {
+    margin-top: 68px;
     .about-hero {
-        display: flex;
-        align-items: center;
-        justify-items: center;
-
         img{
+            margin-top: 68px;
             height: 600px;
         }
 
-        h1 {
-            font-size: 48px;
-        }
-        p {
-            // height: 250px;
-            font-size: 22px;
-        }
+       
     }
 }

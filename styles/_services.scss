@@ -1,0 +1,13 @@
+.services {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 300px);
+    gap: 32px;
+    margin-top: 24px;
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}

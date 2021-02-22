@@ -5,9 +5,22 @@
 }
 
 body {
-    height: 100vh;
     font-family: "Amiko", sans-serif;
     font-family: "Open Sans", sans-serif;
-    max-width: 980px;
+    overflow-x: hidden;
+ img{
+     height: 850px;
+ }
+}
+.container{
+    width: 980px;
     margin: 0 auto;
+}
+
+@media (max-width:1280px){
+    body {
+     img{
+         height: 800px;
+     }
+    }
 }

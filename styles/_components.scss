@@ -1,0 +1,44 @@
+.button-green {
+    background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
+    border-radius: 24px;
+    padding: 15px 45px;
+    text-align: center;
+    font-size: 16px;
+    box-shadow: 0 0 20px rgb(182, 182, 182);
+
+    display: block;
+    transition: 0.5s;
+    background-size: 200% auto;
+
+    &:hover {
+        background-position: right center;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+.title {
+    font-weight: bold;
+    font-family: 'amiko';
+    color: #08025B;
+    font-size: 48px;
+} .sub-text-hero {
+    // height: 250px;
+    font-size: 22px;
+}
+.service-text{
+    color: #040404;
+    font-family: 'amiko';
+    font-size: 18px;
+}
+.service-text-info{
+    color: #6C6C6C;
+    font-size: 16px;
+}
+.footer-text{
+    margin-bottom: 8px;
+    color: #eee;
+    font-family: 'amiko';
+    font-size: 18px;
+    font-weight: 600;
+}

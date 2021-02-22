@@ -1,7 +1,6 @@
-.landing {
-    background: url("../assets/cherrydeck-A44EW3n2PgM-unsplash.jpg") no-repeat center top;
-}
 .landing-hero {
+ 
+    position: relative;
     color: white;
 
     .hero {
@@ -21,28 +20,9 @@
             margin-top: 16px;
             margin-bottom: 50px;
         }
-
-        button {
-            background-image: linear-gradient(to right, #56ab2f 0%, #a8e063 51%, #56ab2f 100%);
-            border-radius: 24px;
-            padding: 15px 45px;
-            text-align: center;
-            font-size: 16px;
-            box-shadow: 0 0 20px rgb(182, 182, 182);
-
-            display: block;
-            transition: 0.5s;
-            background-size: 200% auto;
-
-            &:hover {
-                background-position: right center;
-                color: #fff;
-                text-decoration: none;
-            }
-        }
     }
     .footer {
-        margin-top: 164px;
+        margin-top: 64px;
         align-items: center;
         justify-content: center;
         justify-items: center;
@@ -65,8 +45,8 @@
         .plus2,
         .plus3 {
             padding: 0;
-            height: 150px;
-            width: 150px;
+            height: 90px;
+            width: 90px;
 
             text-align: center;
 

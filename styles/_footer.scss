@@ -1,0 +1,39 @@
+footer {
+    padding: 32px;
+    background: #4e4e4e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .coopy {
+        p {
+            font-size: 16px;
+            color: #eee;
+        }
+    }
+    .footer-text {
+        display: grid;
+        grid-template-columns: 400px 1fr;
+        gap: 32px;
+        .links {
+            list-style-type: none;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-weight: lighter;
+            text-transform: capitalize;
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            align-items: center;
+            .services-links,
+            li {
+                font-weight: 300;
+                font-family: "Open Sans";
+            }
+        }
+    }
+    span {
+        color: #eee;
+        margin-top: 16px;
+    }
+}
