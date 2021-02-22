@@ -22,7 +22,7 @@
 <p align="center">
 Institucional Website é um site instructional construindo com o intuito de praticar os conhecimentos de desenvolvimento Web 
 </p>
-<h1 align="center"><a href="https://isaiasnhantumbo.github.io/Foodfy">Acessar Demonstração</a></h1>
+<h1 align="center"><a href="https://isaiasnhantumbo.github.io/institucional-website/">Acessar Demonstração</a></h1>
 
 ## ✅ Features
   - [x] Apresentar dados da empresa
